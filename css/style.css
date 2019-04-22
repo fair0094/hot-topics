@@ -1,0 +1,256 @@
+/*colours: 
+royal blue - #0D55CA
+mid blue - #0CA0E8
+sky blue - #00F7FF
+green - #0DFF70
+black - #000000
+
+Font choice: 
+spectral
+source sans pro
+*/
+
+/*image sources:
+header: https://pixabay.com/photos/flower-macro-forget-drip-water-2197679/
+
+home:
+spectrum: https://pixabay.com/vectors/equalizer-beat-dance-fiesta-153212/
+cat-backgroundless: https://pixabay.com/photos/cat-pet-striped-kitten-young-1192026/
+library-cat: https://pixabay.com/photos/cat-animal-kitten-pet-fur-4097325/
+ingredients: https://pixabay.com/photos/pasta-fettuccine-food-italian-1181189/
+pasta: https://pixabay.com/photos/pasta-mushrooms-basil-italy-711679/
+
+portfolio:
+daisy: https://pixabay.com/photos/daisy-flower-summer-meadow-yellow-144677/
+blue rose: https://pixabay.com/photos/rose-blue-flower-bloom-romance-165819/
+forget me nots: https://pixabay.com/photos/forget-me-not-flower-1365857/
+yellow lily: https://pixabay.com/photos/lily-flowers-early-flower-garden-1512813/
+
+pink flower: https://pixabay.com/photos/flower-dahlia-blossom-bloom-plant-197343/
+
+cherry blossom: https://pixabay.com/photos/japanese-cherry-trees-flowers-spring-324175/
+water lily: https://pixabay.com/photos/water-lily-red-pond-flower-bloom-3478924/
+
+TEXT: Original Paragraphs written by me
+
+*/
+
+body {
+    line-height: 1.4; 
+}
+
+.all {
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+
+body {
+    background-color: #00F7FF; 
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.75rem;
+}
+
+
+h1 {
+    font-family: 'Spectral', serif;
+    background-image: url("../images/header2.jpg"); 
+    background-size: 100%;
+    background-color: #00F7FF;
+    background-repeat: no-repeat;
+    color: #0D55CA;
+    font-size: 250%; 
+    font-weight: 700;
+    padding: 60px; 
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-family: 'Spectral', serif;
+    font-size: 180%; 
+    text-align: center; 
+    margin-bottom: 10px;
+    color: #0D55CA;
+    font-weight: 600; 
+    text-shadow: 1px 1px black
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.75rem;
+    margin-bottom: 30px;
+}
+
+
+li {
+    margin-bottom: 20px;  
+}
+
+nav ul li a:link {
+    color: black;
+    text-decoration: none; 
+    background-color: #0D55CA;
+    color: #00F7FF;
+    font-size: 150%; 
+    background-size: 100%;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav ul li a:hover {
+    background-color: #0DFF70;
+    color: #0D55CA;
+}
+
+.copyright {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul li a:link {
+    color: #0D55CA;
+}
+
+footer ul li a:visited {
+    color: #0D55CA;
+}
+
+footer ul li a:hover {
+    color: #0BE216;
+}
+
+
+.icons {
+   font-size: 280%;
+   margin-bottom: 20px;
+}
+
+.social-links {
+    display: inline;
+}
+
+
+.social-push {
+        margin-left: 20px;
+}
+
+/*Media Queries*/
+
+@media only screen and (min-width: 35rem) {
+    h1 {
+        font-size: 300%;}
+    
+    nav ul li a:link {
+        float: left; 
+        width: 45%;
+        margin-bottom: 20px; 
+        margin-left: 5%;}  
+    
+    nav ul li {
+        margin-right: 5%;}
+    
+    figure {
+        width: 40%;
+        float: left;
+        max-width: 100%;
+        max-height: 100%;
+        margin-right: 5%;}   
+    
+    .align-left {
+        text-align: left;} 
+    
+    p {
+        float: none;
+        font-size: 1rem;}
+    
+    figcaption {
+        font-size: 1rem;}
+   
+    hr {
+        clear: both;}
+
+    .position1 {
+        width: 42.5%;
+        margin-left: 5%;
+        margin-right: 5%;}
+    
+    .position2 {
+        width: 42.5%;}
+    
+    footer {
+        clear: both;}
+}
+
+
+
+@media only screen and (min-width: 80rem) {
+    h1 {
+        font-size: 460%;}
+    
+    nav ul li a:link {
+        width: 25%;
+        margin-left: 0;
+        margin-right: 20px;}  
+    
+    nav ul li {
+        margin: 0;}
+
+    h2 {
+        clear: both;
+        text-align: initial;}
+    
+    figure {
+        width: 25%;
+        float: left;}
+    
+    .position1 {
+        width: 25%;
+        margin: 0;}
+    
+    .position2 {
+        width: 25%;
+        margin-left: 5%;}
+    
+    .position3 {
+       margin-left: 0;}
+    
+    p {
+        float: right;
+        width: 70%;
+        font-size: 1.25rem;}
+    
+    figcaption {
+        font-size: 1.25rem;}
+    
+    .copyright {
+        float: none; 
+        width: 100%;}
+    
+    footer {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: left;
+        clear: both;}
+}
+
+
