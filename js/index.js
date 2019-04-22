@@ -9,7 +9,7 @@ const navItems = document.querySelectorAll("header nav ul li a");
 const container = document.querySelector(".container");
 
 //using relative path 
-let path = "https://fair0094.github.io/hot-topics/content/home.html";
+let path = "http://fair0094.github.io/hot-topics/content/home.html";
 
 function handleClick(ev) {
     //prevents link from redirecting, cause we want it to load on the page  
