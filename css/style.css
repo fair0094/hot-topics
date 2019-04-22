@@ -1,6 +1,5 @@
 /*colours: 
 royal blue - #0D55CA
-mid blue - #0CA0E8
 sky blue - #00F7FF
 green - #0DFF70
 black - #000000
@@ -87,7 +86,7 @@ h2 {
     margin-bottom: 10px;
     color: #0D55CA;
     font-weight: 600; 
-    text-shadow: 1px 1px black
+    text-shadow: 1px 1px #000000;
 }
 
 p {
@@ -102,7 +101,7 @@ li {
 }
 
 nav ul li a:link {
-    color: black;
+    color: #000000;
     text-decoration: none; 
     background-color: #0D55CA;
     color: #00F7FF;
